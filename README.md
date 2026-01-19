@@ -1,5 +1,7 @@
 # Aplicație Web - Casetă de Reclamă Dinamică
 
+🌐 **Demo Live:** [https://andreasbaschir.github.io/Reclama-DHTML-TPI/](https://andreasbaschir.github.io/Reclama-DHTML-TPI/)
+
 ## Descriere
 
 Aplicația este o pagină web simplă care implementează o casetă de reclamă interactivă folosind **DHTML (Dynamic HTML)**, respectând exact cerința inițială.
