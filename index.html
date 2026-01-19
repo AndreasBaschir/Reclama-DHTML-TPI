@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Web cu Reclamă</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Overlay pentru reclamă -->
+    <div id="adOverlay" class="ad-overlay" style="display: none;"></div>
+
+    <!-- Caseta de reclamă -->
+    <div id="adBox" class="ad-box" style="display: none;">
+        <h2>🎉 OFERTĂ SPECIALĂ!</h2>
+        <p>Profitați acum de cea mai bună ofertă a anului! Reduceri de până la 50% la toate produsele.</p>
+        <div class="timer">Se va închide în <span id="countdown">10</span> secunde...</div>
+        <button class="ad-close-btn" onclick="closeAd()">Închide reclama</button>
+    </div>
+
+    <!-- Conținut principal -->
+    <div class="container">
+        <h1>Bine ați venit!</h1>
+        <p>Aceasta este o pagină web demonstrativă cu o casetă de reclamă care apare automat la fiecare încărcare.</p>
+        <p>Reclama va dispărea automat după 10 secunde sau o puteți închide manual apăsând butonul.</p>
+        <button class="button" onclick="showAd()">Deschide reclama din nou</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
